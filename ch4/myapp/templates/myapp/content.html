@@ -1,0 +1,7 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}content page{% endblock title %}
+{% block image %}
+<img src="{% static 'myapp/images/image.png' %}" alt="appimg" width='500px'>
+{% endblock image %}
+{% block actualcontent %}<h1>content page</h1>{% endblock actualcontent %}
